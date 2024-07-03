@@ -1,0 +1,115 @@
+body {
+    grid-column: initial;
+    margin: 0 !important;
+	font-style: normal !important;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-style: normal !important;
+}
+
+h2 {
+	font-style: normal;
+}
+
+div {
+	font-style: normal;
+	color: #000000 !important;
+}
+
+div h2 {
+	color: #000000;
+}
+
+cite {
+	color: #000000 !important;
+}
+
+
+header {
+	width:100%;
+	overflow:hidden;
+	background:black;
+	margin-bottom:13px;
+}
+
+.wrapper {
+	width: 1000px;
+	margin:center;
+	overflow:hidden;
+	max-width: 1000;
+}
+
+header nav {
+	float:left;
+	line-height:10px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:5px 10px;
+	line-height:normal;
+	font-size:13px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#ff0000;
+	border-radius:50px;
+}
+
+.grid-container {
+	display: inline-grid;
+	grid-template:
+	"header  header"
+    "sidebar main"   1fr
+    "footer  footer" min-content
+	/ 250px   1fr;
+	  }
+	  
+.page-content {
+    display:flex;
+	justify-content:center;
+	align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+	}
+	
+	
+#menuButton {
+	background-color: black;
+	color: white;
+}
+
+
+footer {
+	background-color: black;
+	flex-direction: row;
+	
+
+}
+
+.footer-row div {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+
+}
+
+.footer-row div p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #ffffff;
+	
+} 	
+
+footer h4 {
+	color: #fff;
+}
+
+
